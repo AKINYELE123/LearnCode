@@ -4,6 +4,7 @@
     "slug": "LearnCode",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "LearnCode",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -21,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.oracle.learncode",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0da96522-d409-46f9-9361-dc755a96ee73"
+      }
     }
   }
 }
